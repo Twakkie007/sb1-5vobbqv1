@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "bolt-expo-nativewind",
+    "slug": "stackie-hr-community",
+    "version": "1.0.0",
+    "description": "South Africa's premier HR community platform with AI-powered assistance, professional networking, and comprehensive resources.",
+    "keywords": ["HR", "Human Resources", "South Africa", "AI", "Community", "Labour Law", "CCMA", "BCEA"],
+    "privacy": "public",
+    "platforms": ["ios", "android", "web"],
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F0F10"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.stackie.hr.community",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to take profile photos and upload media content.",
+        "NSMicrophoneUsageDescription": "This app uses the microphone for voice messages and audio recording.",
+        "NSPhotoLibraryUsageDescription": "This app accesses your photo library to upload images and media content."
+      }
+    },
+    "android": {
+      "package": "com.stackie.hr.community",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#0F0F10"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "server",
+      "favicon": "./assets/images/favicon.png",
+      "name": "Stackie HR Community",
+      "shortName": "Stackie HR",
+      "lang": "en",
+      "scope": "/",
+      "themeColor": "#7C3AED",
+      "backgroundColor": "#0F0F10",
+      "display": "standalone",
+      "startUrl": "/",
+      "orientation": "portrait"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font", 
+      "expo-web-browser",
+      "expo-camera",
+      "expo-image-picker",
+      "expo-av"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id-here"
+      }
+    }
+  }
+}

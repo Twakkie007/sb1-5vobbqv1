@@ -1,6 +1,8 @@
 # 🚀 Stackie HR Community
 
 South Africa's premier HR community platform with AI-powered assistance, professional networking, and comprehensive resources.
+## Code reviews CodeRabbit
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/Twakkie007/sb1-5vobbqv1?utm_source=oss&utm_medium=github&utm_campaign=Twakkie007%2Fsb1-5vobbqv1&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
 
 ## ✨ Features
 
